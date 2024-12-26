@@ -36,8 +36,8 @@
         "symfony/serializer"      : "^5.0 || ^6.0 || ^7.0",
         "react/event-loop"        : "1.5.*",
         "php-http/discovery"      : "^1.0",
-        "cache/array-adapter"     : "^1.2.1",
-        "ext-bcmath": "*"
+        "ext-bcmath": "*",
+        "symfony/cache": "^7.2"
     },
 
     "require-dev" : {
