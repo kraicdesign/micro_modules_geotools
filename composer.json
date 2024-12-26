@@ -5,6 +5,11 @@
     "keywords"    : ["geotools", "geometry", "geocoder", "geocoding", "geoip", "bounds", "distance", "batch", "async", "geohash", "geolocation", "latlong", "latitude", "longitude"],
     "license"     : "MIT",
 
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/JurRutten/array-adapter"
+    }],
+
     "authors" : [{
         "name"     : "Antoine Corcy",
         "email"    : "contact@sbin.dk",
@@ -31,7 +36,7 @@
         "symfony/serializer"      : "^5.0 || ^6.0 || ^7.0",
         "react/event-loop"        : "1.5.*",
         "php-http/discovery"      : "^1.0",
-        "cache/array-adapter"     : "^1.0",
+        "cache/array-adapter"     : "^1.2.1",
         "ext-bcmath": "*"
     },
 
